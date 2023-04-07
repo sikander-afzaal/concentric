@@ -1,0 +1,58 @@
+@font-face {
+  font-family: Panton;
+  src: url("/fonts/Panton-Trial-Black.woff2");
+  font-weight: 900;
+}
+@font-face {
+  font-family: Panton;
+  src: url("/fonts/Panton-Trial-Bold.woff2");
+  font-weight: 700;
+}
+@font-face {
+  font-family: Panton;
+  src: url("/fonts/Panton-Trial-ExtraBold.woff2");
+  font-weight: 800;
+}
+@font-face {
+  font-family: Panton;
+  src: url("/fonts/Panton-Trial-ExtraLight.woff2");
+  font-weight: 200;
+}
+@font-face {
+  font-family: Panton;
+  src: url("/fonts/Panton-Trial-Light.woff2");
+  font-weight: 300;
+}
+@font-face {
+  font-family: Panton;
+  src: url("/fonts/Panton-Trial-Regular.woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: Panton;
+  src: url("/fonts/Panton-Trial-SemiBold.woff2");
+  font-weight: 600;
+}
+@font-face {
+  font-family: Panton;
+  src: url("/fonts/Panton-Trial-Thin.woff2");
+  font-weight: 100;
+}
+@font-face {
+  font-family: Panton;
+  src: url("/fonts/Panton-Trial-Light.woff2");
+  font-weight: 300;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .wrapper {
+    @apply flex justify-start items-center flex-col w-full;
+  }
+  .contain {
+    @apply flex w-[90%] max-w-[1200px];
+  }
+}
