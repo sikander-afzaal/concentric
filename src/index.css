@@ -56,3 +56,8 @@
     @apply flex w-[90%] max-w-[1200px];
   }
 }
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}

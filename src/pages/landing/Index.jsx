@@ -37,7 +37,10 @@ const Index = () => {
               <Link to="/" className="text-white font-extrabold text-[40px] ">
                 Uber uns
               </Link>
-              <Link to="/" className="text-white font-extrabold text-[40px] ">
+              <Link
+                to="/service"
+                className="text-white font-extrabold text-[40px] "
+              >
                 Leistungen
               </Link>
               <Link to="/" className="text-white font-extrabold text-[40px] ">
@@ -74,7 +77,7 @@ const Index = () => {
       <div className="w-full  lg:hidden flex justify-start items-center flex-col">
         <div className="bg-landingBg wrapper  bg-cover bg-center h-[287px]">
           <div className="contain h-full justify-start items-center">
-            <h3 className="max-w-[620px] text-white font-black text-[32px]">
+            <h3 className="max-w-[620px] text-white font-black text-2xl sm:text-[32px]">
               {" "}
               Wir machen unsere Kunden zu Vorreitern in der digitalen Welt.{" "}
             </h3>
