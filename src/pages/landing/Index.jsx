@@ -74,7 +74,7 @@ const Index = () => {
           </div>
         </div>
       </div>
-      <div className="w-full  lg:hidden flex justify-start items-center flex-col">
+      <div className="w-full mt-[55px]  lg:hidden flex justify-start items-center flex-col">
         <div className="bg-landingBg wrapper  bg-cover bg-center h-[287px]">
           <div className="contain h-full justify-start items-center">
             <h3 className="max-w-[620px] text-white font-black text-2xl sm:text-[32px]">
